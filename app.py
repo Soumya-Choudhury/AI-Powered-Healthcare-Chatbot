@@ -39,12 +39,12 @@ def healthcare_chatbot(user_input):
         try:
             response = chatbot(
     user_input, 
-    max_length=150,  # Prevents endless repetition
+    max_length=150,  
     num_return_sequences=1, 
-    temperature=0.7,  # Controls randomness (lower = more deterministic)
-    top_k=50,         # Limits token selection to top 50 choices
-    top_p=0.9,        # Nucleus sampling: picks most probable words
-    repetition_penalty=1.2  # Discourages repetition
+    temperature=0.7,  
+    top_k=50,         
+    top_p=0.9,        
+    repetition_penalty=1.2  
 )
 
             return response[0]['generated_text'].strip()

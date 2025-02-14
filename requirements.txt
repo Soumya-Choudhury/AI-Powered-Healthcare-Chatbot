@@ -1,0 +1,9 @@
+streamlit
+transformers
+tensorflow
+nltk
+datasets
+pandas
+torch
+py
+huggingface_hub

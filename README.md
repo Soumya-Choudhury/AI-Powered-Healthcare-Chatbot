@@ -29,11 +29,11 @@ This project implements a Healthcare Assistant Chatbot using a fine-tuned distil
    ```bash
    pip install -r requirements.txt
 
-4.**Run the fine_tuned_model.py file first**
+4.**Run the fine_tuned_model.py file first:**
   ```bash
   python fine_tuned_model.py
 
-5.**Run the app.py file**
+5.**Run the app.py file:**
   ```bash
   streamlit run app.py   #It will launch the appon web browser
 

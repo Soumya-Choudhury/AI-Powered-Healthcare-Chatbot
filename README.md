@@ -20,16 +20,20 @@ This project implements a Healthcare Assistant Chatbot using a fine-tuned distil
    cd healthcare-chatbot
 
 2. **Setup virtual environment:**
-python3 -m venv .venv  # Or use virtualenv or conda
-source .venv/bin/activate  # On Linux/macOS
-.\venv\Scripts\activate  # On Windows
+   ```bash
+   python3 -m venv .venv  # Or use virtualenv or conda
+   source .venv/bin/activate  # On Linux/macOS
+   .\venv\Scripts\activate  # On Windows
 
 3.**Install all the dependencies:**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4.**Run the fine_tuned_model.py file first**
-python fine_tuned_model.py
+  ```bash
+  python fine_tuned_model.py
 
 5.**Run the app.py file**
-streamlit run app.py   #It will launch the appon web browser
+  ```bash
+  streamlit run app.py   #It will launch the appon web browser
 

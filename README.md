@@ -35,5 +35,5 @@ This project implements a Healthcare Assistant Chatbot using a fine-tuned distil
 
 5. **Run the app.py file:**
    ```bash
-   streamlit run app.py   #It will launch the appon web browser
+   streamlit run app.py   #It will launch the app on web browser
 
